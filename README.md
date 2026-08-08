@@ -30,7 +30,10 @@ while True:
     conn.send("ACK".encode())
 
 conn.close()
-Server
+```
+
+## Server
+```
 import socket
 
 s = socket.socket()
@@ -49,6 +52,8 @@ s.close()
 ```
 
 ## OUTPUT
+<img width="983" height="207" alt="Screenshot 2026-08-08 131416" src="https://github.com/user-attachments/assets/edde4fb5-ac40-400d-a8b6-a7fc45956e3a" />
+
 <img width="1002" height="177" alt="Screenshot 2026-08-08 131428" src="https://github.com/user-attachments/assets/93f47e80-0ed0-4558-a6fb-1f155c0d4728" />
 
 ## RESULT
